@@ -8,7 +8,7 @@ Installs Tomcat 7 on 64-bit Ubuntu.  A prebuilt image is available at quay.io.
     
 Usage:
     
-    docker run -d -p 8080:8080 8443:8443 quay.io/jdgoldie/tomcat7:latest
+    docker run -d -p 8080:8080 -p 8443:8443 quay.io/jdgoldie/tomcat7:latest
 
 The manager user/password is tomcat/tomcat.  Add war files to /usr/local/tomcat/webapps to have them deployed.
 
